@@ -1,0 +1,335 @@
+body {
+  background-color: rgb(212, 223, 237);
+}
+@media (min-width: 250px) {
+  #maincontainer {
+    width: 90%;
+    padding: 10px;
+    line-height: 70px;
+    margin: 0 auto;
+  }
+
+  #uppercontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h1 {
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #name {
+    color: rgb(39, 151, 231);
+    height: 5vw;
+    width: 28vw;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+  }
+
+  #searchButton {
+    border: 2px solid rgb(13, 35, 228);
+    background-color: rgb(13, 35, 228);
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    height: 6vw;
+    width: 20vw;
+    border-radius: 4px;
+    margin-left: 5vw;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  #lowercontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #nationality {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+
+  #probability {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 280px) {
+  #maincontainer {
+    width: 80%;
+    padding: 10px;
+    line-height: 70px;
+    margin: 0 auto;
+  }
+
+  #uppercontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h1 {
+    color: brown;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #name {
+    color: rgb(39, 151, 231);
+    height: 5vw;
+    width: 28vw;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+  }
+
+  #searchButton {
+    border: 2px solid rgb(13, 35, 228);
+    background-color: rgb(13, 35, 228);
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    height: 6vw;
+    width: 20vw;
+    border-radius: 4px;
+    margin-left: 5vw;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  #lowercontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #nationality {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+
+  #probability {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 700px) {
+  #maincontainer {
+    width: 80%;
+    padding: 10px;
+    line-height: 70px;
+    margin: 0 auto;
+  }
+
+  #uppercontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h1 {
+    color: brown;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #name {
+    color: rgb(39, 151, 231);
+    height: 5vw;
+    width: 28vw;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+  }
+
+  #searchButton {
+    border: 2px solid rgb(13, 35, 228);
+    background-color: rgb(13, 35, 228);
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    height: 6vw;
+    width: 20vw;
+    border-radius: 4px;
+    margin-left: 5vw;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  #lowercontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #nationality {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+
+  #probability {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 900px) {
+  #maincontainer {
+    width: 80%;
+    padding: 10px;
+    line-height: 70px;
+    margin: 0 auto;
+  }
+
+  #uppercontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h1 {
+    color: brown;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #name {
+    height: 4vw;
+    color: rgb(39, 151, 231);
+    width: 20vw;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+  }
+
+  #searchButton {
+    border: 2px solid rgb(13, 35, 228);
+    background-color: rgb(13, 35, 228);
+    font-size: 14px;
+    font-weight: 500;
+    height: 3vw;
+    width: 15vw;
+    border-radius: 4px;
+    margin-left: 3vw;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  #lowercontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #nationality {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+
+  #probability {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    color: brown;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  #name {
+    color: rgb(39, 151, 231);
+    height: 4vw;
+    width: 28vw;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+  }
+
+  #searchButton {
+    border: 2px solid rgb(13, 35, 228);
+    background-color: rgb(13, 35, 228);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    height: 4vw;
+    width: 20vw;
+    border-radius: 4px;
+    margin-left: 5vw;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  #lowercontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #nationality {
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+
+  #probability {
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+  }
+}
