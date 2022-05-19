@@ -1,6 +1,165 @@
 body {
   background-color: rgb(212, 223, 237);
 }
+
+@media (min-width: 50px) {
+  #maincontainer {
+    width: 90%;
+    padding: 5px;
+    line-height: 70px;
+    margin: 0 auto;
+  }
+
+  #uppercontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h1 {
+    color: rgb(33, 0, 244);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+  }
+
+  #name {
+    color: rgb(39, 151, 231);
+    border-radius: 5px;
+    height: 5vw;
+    width: 50vw;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+
+  #searchButton {
+    border: 2px solid rgb(13, 35, 228);
+    background-color: rgb(13, 35, 228);
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    height: 8vw;
+    width: 30vw;
+    border-radius: 5px;
+    margin-left: 12vw;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+
+  #lowercontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  #nationality {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+    justify-content: flex-start;
+    font-style: italic;
+    color: rgb(195, 9, 62);
+  }
+
+  #probability {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(42, 54, 165);
+  }
+}
+
+@media (min-width: 150px) {
+  #maincontainer {
+    width: 90%;
+    padding: 5px;
+    line-height: 70px;
+    margin: 0 auto;
+  }
+
+  #uppercontainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h1 {
+    color: rgb(33, 0, 244);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+  }
+
+  #name {
+    color: rgb(39, 151, 231);
+    border-radius: 5px;
+    height: 5vw;
+    width: 50vw;
+    font-size: 10px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+
+  #searchButton {
+    border: 2px solid rgb(13, 35, 228);
+    background-color: rgb(13, 35, 228);
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    height: 7vw;
+    width: 30vw;
+    border-radius: 5px;
+    margin-left: 12vw;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
+  }
+
+  #lowercontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: fl;
+  }
+  #nationality {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+    justify-content: flex-start;
+    font-style: italic;
+    color: rgb(195, 9, 62);
+  }
+
+  #probability {
+    display: flex;
+    font-size: 10px;
+    font-weight: 700;
+    flex-direction: column;
+    line-height: 10px;
+    justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(42, 54, 165);
+  }
+}
+
 @media (min-width: 250px) {
   #maincontainer {
     width: 90%;
@@ -14,20 +173,23 @@ body {
     justify-content: space-evenly;
   }
   h1 {
-    color: brown;
+    color: rgb(33, 0, 244);
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    font-style: italic;
   }
 
   #name {
     color: rgb(39, 151, 231);
+    border-radius: 5px;
     height: 5vw;
     width: 28vw;
     font-size: 10px;
     font-weight: 600;
     text-align: center;
     display: block;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #searchButton {
@@ -38,10 +200,11 @@ body {
     text-align: center;
     height: 6vw;
     width: 20vw;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-left: 5vw;
     margin-top: 25px;
     cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #lowercontainer {
@@ -57,7 +220,10 @@ body {
     font-weight: 700;
     flex-direction: column;
     line-height: 10px;
+    font-family: 'Roboto Flex', sans-serif;
     justify-content: flex-start;
+    font-style: italic;
+    color: rgb(195, 9, 62);
   }
 
   #probability {
@@ -67,6 +233,9 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(42, 54, 165);
   }
 }
 
@@ -83,20 +252,23 @@ body {
     justify-content: space-evenly;
   }
   h1 {
-    color: brown;
+    color: rgb(33, 0, 244);
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    font-style: italic;
   }
 
   #name {
     color: rgb(39, 151, 231);
+    border-radius: 5px;
     height: 5vw;
     width: 28vw;
     font-size: 10px;
     font-weight: 600;
     text-align: center;
     display: block;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #searchButton {
@@ -107,10 +279,11 @@ body {
     text-align: center;
     height: 6vw;
     width: 20vw;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-left: 5vw;
     margin-top: 25px;
     cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #lowercontainer {
@@ -127,6 +300,9 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(195, 9, 62);
   }
 
   #probability {
@@ -136,6 +312,9 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(42, 54, 165);
   }
 }
 
@@ -152,7 +331,7 @@ body {
     justify-content: space-evenly;
   }
   h1 {
-    color: brown;
+    color: rgb(33, 0, 244);
     font-size: 25px;
     font-weight: 600;
     text-align: center;
@@ -160,6 +339,7 @@ body {
 
   #name {
     color: rgb(39, 151, 231);
+    border-radius: 5px;
     height: 5vw;
     width: 28vw;
     font-size: 15px;
@@ -176,10 +356,11 @@ body {
     text-align: center;
     height: 6vw;
     width: 20vw;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-left: 5vw;
     margin-top: 25px;
     cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #lowercontainer {
@@ -196,6 +377,9 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(195, 9, 62);
   }
 
   #probability {
@@ -205,6 +389,9 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(42, 54, 165);
   }
 }
 
@@ -221,20 +408,23 @@ body {
     justify-content: space-evenly;
   }
   h1 {
-    color: brown;
+    color: rgb(33, 0, 244);
     font-size: 30px;
     font-weight: 600;
     text-align: center;
+    font-style: italic;
   }
 
   #name {
     height: 4vw;
+    border-radius: 5px;
     color: rgb(39, 151, 231);
     width: 20vw;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
     display: block;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #searchButton {
@@ -244,10 +434,11 @@ body {
     font-weight: 500;
     height: 3vw;
     width: 15vw;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-left: 3vw;
     margin-top: 25px;
     cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #lowercontainer {
@@ -264,6 +455,9 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(195, 9, 62);
   }
 
   #probability {
@@ -273,15 +467,19 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(42, 54, 165);
   }
 }
 
 @media (min-width: 1000px) {
   h1 {
-    color: brown;
+    color: rgb(33, 0, 244);
     font-size: 45px;
     font-weight: 600;
     text-align: center;
+    font-style: italic;
   }
 
   #name {
@@ -292,6 +490,8 @@ body {
     font-weight: 600;
     text-align: center;
     display: block;
+    font-family: 'Roboto Flex', sans-serif;
+    border-radius: 5px;
   }
 
   #searchButton {
@@ -302,10 +502,11 @@ body {
     text-align: center;
     height: 4vw;
     width: 20vw;
-    border-radius: 4px;
+    border-radius: 5px;
     margin-left: 5vw;
     margin-top: 25px;
     cursor: pointer;
+    font-family: 'Roboto Flex', sans-serif;
   }
 
   #lowercontainer {
@@ -322,6 +523,9 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(195, 9, 62);
   }
 
   #probability {
@@ -331,5 +535,8 @@ body {
     flex-direction: column;
     line-height: 10px;
     justify-content: flex-start;
+    font-family: 'Roboto Flex', sans-serif;
+    font-style: italic;
+    color: rgb(42, 54, 165);
   }
 }
