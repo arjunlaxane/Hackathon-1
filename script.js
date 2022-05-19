@@ -74,12 +74,19 @@ SORRY! No Data available`;
       //      probabilityValue.innerHTML = `Probability :SORRY! No Data`;
     }
 
-    for (let i in data.country) {
+      for (let i in data.country) {
       if (i <= 1) {
-        nationalityIs.innerHTML += `
+        if (data.country[i].country_id === '') {
+          nationalityIs.innerHTML += `
+  <p>
+    Nationality:<span> NA</span>
+  </p>`;
+        } else {
+          nationalityIs.innerHTML += `
   <p>
     Nationality:<span>${data.country[i].country_id}</span>
   </p>`;
+        }
       }
     }
 
