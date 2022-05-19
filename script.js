@@ -19,7 +19,7 @@ var input = document.createElement('input');
 AttributeNaming(input, 'type', 'text');
 AttributeNaming(input, 'id', 'name');
 AttributeNaming(input, 'required', true);
-AttributeNaming(input, 'placeholder', 'Enter name');
+AttributeNaming(input, 'placeholder', 'Enter first name');
 
 var sub = document.createElement('input');
 AttributeNaming(sub, 'type', 'submit');
